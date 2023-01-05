@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <form action="student.html" method="post">
+        <table border="2" align="center" cellsapacing="20" cellpadding="15" >
+            <tr>
+                <td align="center" colspan="2" >
+                     <h2>Student Registration Form</h2> 
+                </td>
+            </tr>
+            <tr>
+                <td>Student Image: </td>
+                <td> <input type="file" name="image" alt="Image not found" > </td>
+            </tr>
+
+            <tr>
+                <td>Student Name : </td>
+                <td><input type="text" name="student" autofocus </td>
+            </tr>
+            <tr>
+                <td>Father's Name : </td>
+                <td><input type="text" name="father" </td>
+            </tr>
+
+            <tr>
+                <td>Mother's Name : </td>
+                <td><input type="text" name="mother" </td>
+            </tr>
+            <tr>
+                <td>Gender : </td>
+                <td>
+                    <input type="radio" name="r">Male
+                    <hr>
+                    <input type="radio" name="r">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Date Of Birth :  </td>
+                <td><input type="date" name="dob" </td>
+            </tr>
+
+            <tr>
+                <td>E-Mail : </td>
+                <td><input type="email" name="email" </td>
+            </tr>
+
+            <tr>
+                <td>Level : </td>
+                <td>
+                    <select>
+                        <option hidden>Select Level</option>
+                        <option>PRIMARY</option>
+                        <option>MIDDLE</option>
+                        <option>HIGH</option>
+                        <option>HEIGHER SECONDARY</option>
+                        <option>UNDER GRADUATION</option>
+                        <option>POST GRADUATION</option>
+                    </select>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>Class / Cource :  </td>
+               <td>
+                <select>
+                    <option hidden>Select</option>
+                 <optgroup label="PRIMARY">
+                    <option> <p>1<sup>st</sup></p> </option>
+                    <option> <p>2<sup>nd</sup></p> </option>
+                    <option> <p>3<sup>rd</sup></p> </option>
+                    <option> <p>4<sup>th</sup></p> </option>
+                    <option> <p>5<sup>th</sup></p> </option>
+                 </optgroup>
+                 <optgroup label="MIDDLE">
+                    <option> <p>6<sup>th</sup></p> </option>
+                    <option> <p>7<sup>th</sup></p> </option>
+                    <option> <p>8<sup>th</sup></p> </option>
+                 </optgroup>
+                 <optgroup label="HIGH">
+                    <option> <p>9<sup>th</sup></p> </option>
+                    <option> <p>10<sup>th</sup></p> </option>
+                 </optgroup>
+                 <optgroup label="HEIGHER SECONDARY">
+                    <option> <p>11<sup>th</sup></p> </option>
+                    <option> <p>12<sup>th</sup></p> </option>
+                 </optgroup>
+                 <optgroup label="GRADUATION">
+                    <option> <p>B.Sc.</p> </option>
+                    <option> <p>B.A.</p> </option>
+                    <option> <p>B.Tech</p> </option>
+                    <option> <p>B.Com</p> </option>
+                    <option> <p>BCA</p> </option>
+                    <option> <p>B.E.</p> </option>
+                 </optgroup>
+                 <optgroup label="POST GRADUATION">
+                    <option> <p>M.Sc.</p> </option>
+                    <option> <p>M.A.</p> </option>
+                    <option> <p>M.Tech</p> </option>
+                    <option> <p>M.Com</p> </option>
+                    <option> <p>MCA</p> </option>
+                 </optgroup>
+                </select>
+                </td>>
+            </tr>
+
+            <tr>
+                <td>Phone Number : </td>
+                <td><input type="text" name="phone" maxlength="10"  </td>
+            </tr>
+
+            <tr>
+                <td>Address : </td>
+                <td>
+                    <textarea maxlength="20"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobbies : </td>
+                <td>
+                    <input type="checkbox" name="hobbies">CRICKET
+                    <hr>
+                    <input type="checkbox" name="hobbies">FOOTBALL
+                    <hr>
+                    <input type="checkbox" name="hobbies">SWIMMING
+                    <hr>
+                    <input type="checkbox" name="hobbies">BOOK READING
+                    <hr>
+                    <input type="checkbox" name="hobbies">SINGING
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>City : </td>
+                <td><input type="text" name="city"  </td>
+            </tr>
+
+            <tr>
+                <td>Pin Code : </td>
+                <td><input type="text" name="pin" maxlength="6" </td>
+            </tr>
+
+            <tr>
+                <td>State : </td>
+                <td><input type="text" name="state" </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                <fieldset>
+                    <legend align="center"> FAMILY  DETAILS </legend>
+                    Name : <input type="text"  name="name" >
+                    Relation : <input type="text"  name="name" >
+                    <hr>
+                    Name : <input type="text"  name="name" >
+                    Relation : <input type="text"  name="name" >
+                    <hr>
+                    Name : <input type="text"  name="name" >
+                    Relation : <input type="text"  name="name" >
+                </td>
+                </fieldset>
+            </tr>
+
+            <tr>
+                <td  align="center" colspan="2" >
+                    <input type="reset" name="reset" value="RESET" >
+                    <input type="submit" name="submit" value="SUBMIT" >
+                </td>
+            </tr>
+
+        
+        </table>
+    </form>
+    </body>
+</html>
