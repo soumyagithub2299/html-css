@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table/List tut</title>
+    <style>
+      table{
+        text-align: center;
+        border:1px solid green;
+        border-radius: 10px;
+        /* border-collapse:collapse; */
+        /* border-style:ridge; */
+      }
+      th, td {
+        background-color:#96D4D4;
+        border-radius:10px;
+        /* border-color: yellow; */   /*(not working)*/
+      }
+
+      /* If you want to apply (tr:hover). You will be remove (th,td css proerty),because if you apply both the CSS Property at a time. You will not see the changes. So for better result use anyone CSS Property in both of them.  */
+
+      /* tr:hover{
+        background-color:#D6EEEE;        
+      } */
+
+      .div1 {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+      }
+      .sp1{
+        background-color:bisque;
+        border:1px solid black;      
+      }
+      .div2 {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        background-color: bisque;
+      }
+      h2{
+        color:green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1"><strong> 
+      <span class="sp1">Exmple of Table</span> </strong></div>
+      <br>
+      <!-- table Example -->
+    <table style="width:100%;">
+      <thead>
+        <tr style="height:30px;">
+          <th>TRACTORS</th>
+          <th>CARS</th>
+          <th>BIKES</th>
+          <th>LAPTOP</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mahindra</td>
+          <td>Tesla</td>
+          <td>Hero</td>
+          <td>Dell</td>
+        </tr>
+        <tr>
+          <td>Powertrack</td>
+          <td>KIA</td>
+          <td>Honda</td>
+          <td>HP</td>
+        </tr>
+        <tr>
+          <td>Swaraj</td>
+          <td>BMW</td>
+          <td>TVS</td>
+          <td>Asus</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <div class="div2">
+      <strong>Unordered and Ordered LIST</strong>
+    </div>
+
+    <!-- Unordered List -->
+    <h2>Example of Unordered List</h2></p>
+    <ul type="square" style="background-color:lightgoldenrodyellow">
+      <li>mango</li>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Papita</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Example of Ordered List</h2>
+    <ol style="background-color:lightgoldenrodyellow">
+      <li>Realme</li>
+      <li>Oppo</li>
+      <li>Vivo</li>
+      <li>Xiomi</li>
+    </ol>
+
+    <!-- Nested HTML Lists
+    Lists can be nested (list inside list): -->
+    <p><strong>Example of Nested list (List inside List)</strong></p>
+    <ul style="background-color:lightgoldenrodyellow">
+      <li>TCS</li>
+      <li>WIPRO</li>
+      <li>INFOSYS</li>
+      <li>IBM</li>
+      <strong>This is another List</strong>
+      <ul>
+        <li>INDIA</li>
+        <li>AMERICA</li>
+        <li>JAPAN</li>
+        <li>BRITAIN</li>
+      </ul>
+      <li>AMZON</li>
+      <li>COGNIZANT</li>
+    </ul>
+  </body>
+</html>
